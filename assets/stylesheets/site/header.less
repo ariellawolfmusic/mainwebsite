@@ -1,20 +1,26 @@
 
+
+
 .navbar {
-  background-color: black;
+  background-color: #fdc7ba;
   border: none;
 
 
   .navbar-brand {
     padding: 17.5px 15px;
-    color: @brand-primary;
+    color: red;
     font-size: 24px;
     line-height: 50px;
     height: 64px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+
   }
 
   .navbar-nav {
     & > li > a {
-      color: @brand-primary;
+      color: red;
       line-height: 29px;
       font-size: 17.5px;
       @media (min-width: 768px) {
@@ -41,7 +47,7 @@
 
 #signup { 
   background-color: #DE4A3E;
-  color: white;
+  color: red;
   /*font-size: 18px;*/
   margin-top: 14px;
   margin-right: 0px;
@@ -55,7 +61,7 @@
 @media (min-width: 768px) and (max-width: 856px) {
  #signup {
   margin-right: -15px;
-  }
+}
 }
 @media (min-width: 857px) and (max-width: 991px) {
   #signup {

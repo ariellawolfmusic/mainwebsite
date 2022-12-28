@@ -1,10 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 @import "base/variables";
 @import "base/mixins";
 @import (inline) "vendor/bootstrap.min.css";
@@ -17,15 +11,18 @@ body {
   -webkit-font-smoothing: antialiased;
   letter-spacing: .1px;
   text-rendering: optimizeLegibility;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   line-height: 1.846;
-  background-color: black;
-  color: #666;
+  background-color: #fdc7ba;
+  color: c;
   overflow-x: hidden !important;
   /*cursor: url("../images/eyeball.png"), auto !important;*/
 
+}
 
+li {
+  color: red;
 }
 html, body {
   width: 100%;
@@ -38,19 +35,15 @@ a {
   color: black;
 };
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bungee Shade', cursive;
-  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  color: red;
 }
-h1 {
-  font-size: 80px !important;
-}
+
 p {
  font-family: 'Fredoka One', cursive;
- color: @brand-primary;
+ color: red;
 }
-h1 {
-  font-size: 100px;
-}
+
 
 .blog {
   h2, h1, h3, p, h4, h5 {color: black}
@@ -60,7 +53,7 @@ h1 {
 }
 
 a {
-  color: @brand-primary;
+  color: red;
 
   &:hover,
   &:active {

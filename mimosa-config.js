@@ -63,8 +63,8 @@ exports.config = {
         desc: "GO BACK IN TURTLE TIME",
       },
       index: {
-        title:"ELECTRIC TURTLES OFFICIAL WEBSITE",
-        desc: "ELECTRIC TURTLES is a rock band from San Francisco and Germany, making raw, sexy and funkadelic rock music. ELECTRIC TURTLES is sexual explosion.",
+        title:"Ariella Wolf Official Website",
+        desc: "Ariella Wolf",
       },
       main: {
         title:"ELECTRIC TURTLES",
